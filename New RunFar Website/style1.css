@@ -1,0 +1,159 @@
+body{
+    padding-bottom: 0px;
+}
+.header{
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.welcome{
+    color: rgb(241, 241, 241);
+    
+    box-shadow: 1px 3px 5px grey;
+    text-justify: auto;
+    background-size: 100%;
+    padding: 6em;
+    text-align: center;
+    background-position: center;
+    background-color: grey;
+    
+    text-shadow: 1px 1px 5px grey;
+    width: 100%;
+}
+
+.photography{
+    box-shadow: 1px 1px 5px grey;
+    background-image: url("images/runfar-background-blue.png");
+    
+}
+.web-design{
+    background-image: url("images/runfar-background-blue.png");
+}
+.web-design, .about-bg, .home-welcome, .work-bg{
+    
+    margin-top:100px;
+}
+.home-welcome{
+    padding:0px;
+}
+.about-bg{
+    background-image: url("images/runfar-background-cyan.png");
+}
+.work-bg{
+    background-image: url("images/runfar-background-lightblue.png");
+}
+
+.summary-paragraph{
+    height: 200px;
+    background-color: aqua;
+}
+.content-grid{
+    box-shadow: 1px 1px 5px grey;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    z-index: 1;
+}
+.content-grid img{
+    padding: 10px;
+}
+.content-row{
+    padding-top:20px;
+    
+}
+.contact-form{
+    
+    background-color: firebrick;
+}
+.footer{
+    padding-top: 10px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    box-shadow: 1px 1px 5px grey;
+    text-shadow: 1px 1px 5px grey;
+    margin-bottom: 0px; 
+}
+
+h2{
+    text-shadow: 1px 1px 5px grey;
+    padding-top: 10px;
+}
+
+
+.embolden{
+    color:black;
+}
+
+.image-container{
+    
+}
+
+.services{
+    padding-bottom: 10px;
+
+}
+.past-work{
+    background-image: url("images/blue-plate.png");
+    color: white;
+    text-shadow: 1px 1px 5px grey;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.meet-the-team{
+    background-image: url("images/blue-plate.png");
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px grey;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.navbar-nav{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.nav-deco:hover{
+    border-bottom: 1px black solid;
+}
+
+.contact-btn{
+    color:white;
+    background-color: rgb(77, 183, 224);
+    padding: 5px;
+    font-size:25px;
+    border-radius: 5px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+.contact-btn:link{
+
+}
+.contact-btn:hover{
+    background-color: rgb(60, 161, 201);
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width:991px){
+    .web-design, .about-bg, .home-welcome, .work-bg{
+        margin-top:154px;
+        
+        background-position: center;
+    }
+    .welcome{
+        padding: 5em;
+    }
+    .home-welcome{
+        padding: 0;
+    }
+    .navbar-nav{
+        font-size: 20px;
+    }
+    .contact-btn{
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
