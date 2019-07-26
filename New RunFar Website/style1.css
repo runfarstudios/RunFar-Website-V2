@@ -25,6 +25,10 @@ body{
     width: 100%;
 }
 
+.welcome h1{
+    margin-left:0;
+}
+
 .photography{
     box-shadow: 1px 1px 5px grey;
     background-image: url("images/runfar-background-blue.png");
