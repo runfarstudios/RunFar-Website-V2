@@ -15,7 +15,8 @@ body{
     box-shadow: 1px 3px 5px grey;
     text-justify: auto;
     background-size: 100%;
-    padding: 6em;
+    padding-top: 6em;
+    padding-bottom: 6em;
     text-align: center;
     background-position: center;
     background-color: grey;
@@ -143,7 +144,8 @@ h2{
         background-position: center;
     }
     .welcome{
-        padding: 5em;
+        padding-top: 5em;
+        padding-bottom: 5em;
     }
     .home-welcome{
         padding: 0;
